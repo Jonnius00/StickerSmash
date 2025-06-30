@@ -1,50 +1,62 @@
-# Welcome to my first Expo app 👋
+# StickerSmash 🎉
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+StickerSmash is a small cross-platform mobile app built with [Expo](https://expo.dev) and React Native. This study project uses file-based routing via [expo-router](https://docs.expo.dev/router/introduction/) and demonstrates a simple TypeScript, React Native and Expo setup.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Universal app for Android, iOS, and Web
+- File-based routing with expo-router
+- Custom splash screen and app icon
+- Ready-to-use assets and fonts
+
+## Getting Started
+
+1. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the app**
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   You can then open the app in:
+   - [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+3. **Edit your app**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   Start developing by editing files inside the [`app`](app/) directory. The main entry point is [`app/index.tsx`](app/index.tsx). Navigation is handled by [`app/_layout.tsx`](app/_layout.tsx).
 
-## Get a fresh project
+## Project Structure
 
-When you're ready, run:
+- [`app/`](app/) - App source code (screens, layouts)
+- [`assets/`](assets/) - Images and fonts
+- [`app.json`](app.json) - Expo configuration
+- [`package.json`](package.json) - Project scripts and dependencies
+
+## Resetting the Project
+
+To reset to a blank project:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This moves the starter code to `app-example` and creates a blank `app` directory.
 
-## Learn more
+## Learn More
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Expo documentation](https://docs.expo.dev/)
+- [expo-router documentation](https://docs.expo.dev/router/introduction/)
+- [React Native documentation](https://reactnative.dev/)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Community
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Expo Discord](https://chat.expo.dev)
